@@ -4,12 +4,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(int argc, string argv[])
-
-{
-// check the argument line
-    if (argc != 2)
-        {
+int main(int argc, string argv[]) {
+    // check the argument line
+    if (argc != 2) {
         printf("The argument line is not OK");
         return 1;
         }
@@ -77,7 +74,7 @@ int main(int argc, string argv[])
                 printf("%c", c - 1);
                 j++;
                 
-     //repit key        
+     //repeat key        
                 if (j >= strlen(key)) j = 0;
              
       
